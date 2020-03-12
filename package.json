@@ -1,0 +1,26 @@
+{
+  "name": "ExercisesJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbara-menezes/ExercisesJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barbara-menezes/ExercisesJS/issues"
+  },
+  "homepage": "https://github.com/barbara-menezes/ExercisesJS#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "@types/jest": "^25.1.4"
+  }
+}
