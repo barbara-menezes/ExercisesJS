@@ -1,6 +1,9 @@
 const showWelcomeMessage = require('./welcomeMessage')
 
-test('show welcome message', () => {
-    const result = showWelcomeMessage();
-    expect(result).toBe(console.log('Hello there! Welcome'));
+describe('function welcome message', () => {
+    it('Show welcome message', () => {
+        const result = showWelcomeMessage();
+        
+        expect(result).toBe('Hello there! Welcome');
+    })
 })

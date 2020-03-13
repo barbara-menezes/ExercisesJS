@@ -17,11 +17,11 @@ describe('Function tenTimes', () => {
 });
 
 describe('Function theFunction tenTimes', () => {
-    it('Should call the function power without mock values', () => {
-        const subfunctions = jest.fn();
-        const result = theFunction(tenTimes, 7);
+    it('Should call the subfunction without mock values', () => {
+        const tenTimes = jest.fn();
+        theFunction(tenTimes, 7);
 
-        expect(subfunctions).toHaveBeenCalledTimes(1);
-        expect(result).toHaveBeenCalledWith(70);
+        expect(tenTimes).toHaveBeenCalledTimes(1);
+        expect(tenTimes).toHaveBeenCalledWith(7);
     })
 });

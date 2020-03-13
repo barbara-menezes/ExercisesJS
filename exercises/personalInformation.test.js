@@ -1,16 +1,12 @@
 const { personalData, save } = require('./personalInfomation')
 
-test('Should show the age of the person', () => {
+describe('Should show the age of the person', () => {
     const result = personalData({ name: 'John', age: 30 });
+    
     expect(result).toMatch('John is 30 years old');
 })
 
 describe('Should show the name and age of the people', () => {
-    it('Should call de function by mock the values', () => {
-        // const personalData = jest.fn();
-        // save();
-        // expect(personalData).toHaveBeenCalledTimes(3);
-    })
     it('Should show the data of the people without mock the values', () => {
         console.log = jest.fn();
         save();
