@@ -1,4 +1,4 @@
-const showWelcomeMessage = require('./welcomeMessage')
+const showWelcomeMessage = require('../Exercise1/ex1')
 
 describe('function welcome message', () => {
     it('Show welcome message', () => {

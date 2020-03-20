@@ -1,4 +1,4 @@
-const { power, tenTimes, theFunction } = require('./calculator')
+const { power, tenTimes, theFunction } = require('../Exercise3/ex3')
 
 describe('Function power', () => {
         it('Should multiply the same number two times', () => {
@@ -17,7 +17,7 @@ describe('Function tenTimes', () => {
 });
 
 describe('Function theFunction tenTimes', () => {
-    it('Should call the subfunction without mock values', () => {
+    it('Should call the subfunction with mock values', () => {
         const tenTimes = jest.fn();
         theFunction(tenTimes, 7);
 

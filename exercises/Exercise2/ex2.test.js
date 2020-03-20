@@ -1,4 +1,4 @@
-const { personalData, save } = require('./personalInfomation')
+const { personalData, save } = require('../Exercise2/ex2')
 
 describe('Should show the age of the person', () => {
     const result = personalData({ name: 'John', age: 30 });

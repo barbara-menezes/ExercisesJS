@@ -1,5 +1,3 @@
-//exercise3
-
 function power(num) {
     return num * num;
   }
