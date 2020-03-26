@@ -4,7 +4,8 @@
   "description": "",
   "main": "sum.js",
   "scripts": {
-    "test": "jest --coverage"
+    "coverage": "jest --coverage",
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
   },
   "dependencies": {
     "@babel/core": "^7.8.7",
-    "@types/jest": "^25.1.4"
+    "@types/jest": "^25.1.4",
+    "axios": "^0.19.2",
+    "module": "^1.2.5"
   }
 }

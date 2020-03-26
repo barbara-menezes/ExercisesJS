@@ -14,6 +14,4 @@ function save(){
   })
 };
 
-save();
-
  module.exports = { personalData, save };

@@ -3,9 +3,11 @@ import getName from '../Exercise7/ex7_1';
 jest.mock('../Exercise7/ex7_1');
 
 describe('function helloSyntax', () => {
-    it('Should show the name concatenated with hello', () => {
-         const result = helloSyntax();
+    it('Should show the name concatenated with hello', async() => {
+        getName.mockResolvedValue('Arceus');
+         const result = await helloSyntax();
          
-         expect(result).toBe("Hello undefined");
-    })
-})
+         expect(getName).toHaveBeenCalledTimes(1);
+         expect(result).toEqual("Hello Arceus");
+    });
+});

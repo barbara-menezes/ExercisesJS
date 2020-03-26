@@ -1,10 +1,8 @@
 import getName from '../Exercise7/ex7_1';
 
 async function helloAsync(){
-    let value = await getName();
-    return `Hello ${value}`
+    let result = await getName();
+    return `Hello ${result}`;
 }
-
-helloAsync();
 
 export default helloAsync;

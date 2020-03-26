@@ -1,4 +1,4 @@
-const squareRootSum = require('./square_root_sum');
+import squareRootSum from './square_root_sum';
 
 describe('function squareRootSum', () => {
     it('Should show a calc of square root of two natural numbers', () => {
@@ -19,11 +19,14 @@ describe('function squareRootSum', () => {
 describe('function squareRootSum', () => {
     it('Should trhow a error on calc of square root for a negative number', () => {
 
-        try {
-            squareRootSum(-5, -7);
-        } catch (error) {
-            expect(error.message).toBe('Error: Please try again, the value informed cannot be calculated');
-        }
+        // try {
+        //     console.log('outro erro');
+        //     squareRootSum("teste", "teste");
+        // } catch (error) {
+        //     expect(error.message).toBe('Please try again, the values informed cannot be calculated');
+        // }
+
+    expect(() => {squareRootSum("teste", "teste")}).toThrowError('Please try again, the values informed cannot be calculated');
 
     })
 })
@@ -32,9 +35,9 @@ describe('function squareRootSum', () => {
     it('Should trow a message error', () => {
         
         try {
-            squareRootSum('teste');
+            squareRootSum("test");
         } catch (error) {
-            expect(error.message).toBe('Error: Please try again, the value informed cannot be calculated');
+            expect(error.message).toBe('Please try again, the values informed cannot be calculated');
         }
     })
 })
