@@ -1,22 +1,22 @@
 
-import getCharactersName from './ex10';
-import mockNameCharacters from '../../mocks/APIBrekingBad/mockNameCharacters';
-import mockCharacters from '../../mocks/APIBrekingBad/mockCharacters.js';
-import requestHttpCharacters from '../Exercise9/ex9_1';
-jest.mock('../Exercise9/ex9_1');
+import getEpisodesName from './ex11_2';
+import mockNameEpisodes from '../../mocks/APIBrekingBad/mockNameEpisodes';
+import mockEpisodes from '../../mocks/APIBrekingBad/mockEpisodes.js';
+import requestHttpEpisodes from './ex11_1';
+jest.mock('./ex11_1');
 
 describe('function getNumberOfCharacters', () => {
     it('Should show the number of characters', async () => {
-        requestHttpCharacters.mockResolvedValue(mockCharacters);
-        const result = await getCharactersName();
+        requestHttpEpisodes.mockResolvedValue(mockEpisodes);
+        const result = await getEpisodesName();
         
-        expect(result).toEqual(mockNameCharacters);
+        expect(result).toEqual(mockNameEpisodes);
     })
     it('Trows error from an API', async () => {
         const errorMessage = 'Network Error';
-        requestHttpCharacters.mockRejectedValue(errorMessage);
+        requestHttpEpisodes.mockRejectedValue(errorMessage);
 
-        await getCharactersName().catch(error => {
+        await getEpisodesName().catch(error => {
             expect(error).toThrowError(errorMessage);
           })
     });

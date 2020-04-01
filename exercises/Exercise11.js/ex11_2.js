@@ -1,6 +1,6 @@
 import requestHttpEpisodes from './ex11_1';
 
-async function getCharactersName() {
+async function getEpisodesName() {
     try {
         const response = await requestHttpEpisodes();
 
@@ -11,11 +11,11 @@ async function getCharactersName() {
         }
 
         names.sort();
-        return response;
+        return names;
 
       } catch (error) {
         return error;
       }
 }
 
-export default getCharactersName;
+export default getEpisodesName;
