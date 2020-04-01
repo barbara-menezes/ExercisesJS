@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1585683886136" clover="3.2.0">
-  <project timestamp="1585683886136" name="All files">
-    <metrics statements="58" coveredstatements="55" conditionals="18" coveredconditionals="18" methods="19" coveredmethods="19" elements="95" coveredelements="92" complexity="0" loc="58" ncloc="58" packages="13" files="17" classes="17"/>
+<coverage generated="1585747634740" clover="3.2.0">
+  <project timestamp="1585747634740" name="All files">
+    <metrics statements="63" coveredstatements="63" conditionals="18" coveredconditionals="18" methods="20" coveredmethods="20" elements="101" coveredelements="101" complexity="0" loc="63" ncloc="63" packages="14" files="18" classes="18"/>
     <package name="exercises.Exercise0">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="ex0.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/exercises/Exercise0/ex0.js">
@@ -19,17 +19,28 @@
       </file>
     </package>
     <package name="exercises.Exercise10">
-      <metrics statements="8" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="ex10.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/exercises/Exercise10/ex10.js">
-        <metrics statements="8" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="2" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
+        <line num="10" count="63" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="exercises.Exercise11.js">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ex11_1.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/exercises/Exercise11.js/ex11_1.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
       </file>
     </package>
     <package name="exercises.Exercise2">
@@ -139,11 +150,11 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="baseUrl.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/mocks/APIBrekingBad/baseUrl.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="3" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
       </file>
       <file name="mockCharacters.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/mocks/APIBrekingBad/mockCharacters.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="3" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
       </file>
       <file name="mockNameCharacters.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/mocks/APIBrekingBad/mockNameCharacters.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
