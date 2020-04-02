@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1585748312508" clover="3.2.0">
-  <project timestamp="1585748312508" name="All files">
-    <metrics statements="73" coveredstatements="73" conditionals="18" coveredconditionals="18" methods="21" coveredmethods="21" elements="112" coveredelements="112" complexity="0" loc="73" ncloc="73" packages="14" files="21" classes="21"/>
+<coverage generated="1585849361917" clover="3.2.0">
+  <project timestamp="1585849361918" name="All files">
+    <metrics statements="108" coveredstatements="108" conditionals="22" coveredconditionals="22" methods="29" coveredmethods="29" elements="159" coveredelements="159" complexity="0" loc="108" ncloc="108" packages="15" files="26" classes="26"/>
     <package name="exercises.Exercise0">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="ex0.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/exercises/Exercise0/ex0.js">
@@ -32,17 +32,17 @@
         <line num="17" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="exercises.Exercise11.js">
-      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="ex11_1.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/exercises/Exercise11.js/ex11_1.js">
+    <package name="exercises.Exercise11">
+      <metrics statements="24" coveredstatements="24" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="ex11_1.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/exercises/Exercise11/ex11_1.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="2" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
       </file>
-      <file name="ex11_2.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/exercises/Exercise11.js/ex11_2.js">
+      <file name="ex11_2.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/exercises/Exercise11/ex11_2.js">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="2" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
@@ -52,6 +52,55 @@
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="ex11_3.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/exercises/Exercise11/ex11_3.js">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="102" type="stmt"/>
+        <line num="12" count="102" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="102" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="102" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="exercises.Exercise12">
+      <metrics statements="23" coveredstatements="23" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+      <file name="ex12_1.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/exercises/Exercise12/ex12_1.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="ex12_2.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/exercises/Exercise12/ex12_2.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="63" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="ex12_3.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/exercises/Exercise12/ex12_3.js">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="102" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="102" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="102" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
       </file>
     </package>
     <package name="exercises.Exercise2">
@@ -143,7 +192,7 @@
       <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="ex9_1.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/exercises/Exercise9/ex9_1.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="3" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
@@ -158,22 +207,26 @@
       </file>
     </package>
     <package name="mocks.APIBrekingBad">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="baseUrl.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/mocks/APIBrekingBad/baseUrl.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="5" type="stmt"/>
+        <line num="1" count="9" type="stmt"/>
       </file>
       <file name="mockCharacters.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/mocks/APIBrekingBad/mockCharacters.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="4" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
       </file>
       <file name="mockEpisodes.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/mocks/APIBrekingBad/mockEpisodes.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+      </file>
+      <file name="mockFirstLetterEpisode.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/mocks/APIBrekingBad/mockFirstLetterEpisode.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="2" type="stmt"/>
       </file>
       <file name="mockNameCharacters.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/mocks/APIBrekingBad/mockNameCharacters.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
       </file>
       <file name="mockNameEpisodes.js" path="/home/bmenezes/Projeto/Training/ExercisesJS/mocks/APIBrekingBad/mockNameEpisodes.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
